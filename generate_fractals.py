@@ -4,6 +4,7 @@ import random
 import newton_fractal_functions as newton
 
 #####################################################################
+# create list of functions from newton_fractal_functions module
 f_list = [fun[1] for fun in getmembers(newton) if isfunction(fun[1])]
 #####################################################################
 print(f_list)
@@ -29,7 +30,7 @@ for fnum, f in enumerate(f_list):
     else:
         for im, p in enumerate([1]): # 3,4,5,6,7,8,9
             imf = '_var' + str(int(p))
-            for an,a in enumerate([0.6, 1, 1.4]):
+            for an, a in enumerate([0.6, 1, 1.4]):
                 astr = '_a' + str(an)
                 print('a is ', a)
                 r = random.randint(15,125)
