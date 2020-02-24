@@ -2,3 +2,5 @@
 .idea/*
 fractals/*.png
 fractals/*.jpg
+__pycache__
+__pycache__/*
