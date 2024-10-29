@@ -2,6 +2,7 @@
 ## Hippocampal Circuit and Code for Cognition Lab
 
 This code served as the basis of generating fractals for our projects investigating pattern separation of non-meaningful visual stimuli.
+
 Lab Website: https://www.attilakeresztes.com/
 
 Reference: 
